@@ -39,7 +39,7 @@ public class RotateCamera : MonoBehaviour {
 
 		//time to change the GUI text
 		if (flag) {
-			GameObject.Find ("DataText").GetComponent<TextMesh> ().text = "Real Angle: " + Mathf.RoundToInt (-mr.getRealAngle ()) + "°\n\nScaled Angle: " + Mathf.RoundToInt (-mr.getScaledAngle ()) + "°\n\n\nX: " + (mr.getAccs () [0]).ToString ("F2") + " G\n\nY: " + (mr.getAccs () [1]).ToString ("F2") + " G \n\nZ: " + (mr.getAccs () [2]).ToString ("F2") + " G";
+			GameObject.Find ("DataText").GetComponent<TextMesh> ().text = "Real Angle: " + Mathf.RoundToInt (-mr.getRealAngle ()) + "°\n\nVirtual Angle: " + Mathf.RoundToInt (-mr.getScaledAngle ()) + "°\n\n\nX: " + (mr.getAccs () [0]).ToString ("F2") + " G\n\nY: " + (mr.getAccs () [1]).ToString ("F2") + " G \n\nZ: " + (mr.getAccs () [2]).ToString ("F2") + " G";
 			pendulumscaled.transform.localEulerAngles = new Vector3 (0, 0, -mr.getScaledAngle ());
 			pendulumreal.transform.localEulerAngles = new Vector3 (0, 0, -mr.getRealAngle ());
 

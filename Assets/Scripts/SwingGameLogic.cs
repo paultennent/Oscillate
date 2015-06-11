@@ -15,7 +15,7 @@ public class SwingGameLogic
 {
 	//const float CLIMAX_TIME = 10.0f;
 	const float CLIMAX_TIME = 90.0f;
-	const float SWING_MULTIPLY_FACTOR = 2f;
+	const float SWING_MULTIPLY_FACTOR = 1.5f;
 	const float ROOM_ZOOM_FACTOR = 2f;
 	const float TRIGGER_ANGLE=10f;
 	 float G = CLIMAX_TIME / Mathf.Sqrt(SWING_MULTIPLY_FACTOR);
