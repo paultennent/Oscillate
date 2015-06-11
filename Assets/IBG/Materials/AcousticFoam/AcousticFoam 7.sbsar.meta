@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: dd94de730ac87b8488df982d088d948a
+timeCreated: 1428598994
+licenseType: Store
+SubstanceImporter:
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 15
+    name: AcousticFoam_4a
+    prototypeName: AcousticFoam
+    shader: {fileID: 4800000, guid: f4efabcda876751448b82cb3e44cd08c, type: 3}
+    shaderKeywords: _DETAIL_MULX2 _NORMALMAP
+    renderQueue: -1
+    inputs:
+    - name: $outputsize
+      value:
+        scalar[0]: 8
+        scalar[1]: 8
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $randomseed
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Foam_Type
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: HeightMapModifier
+      value:
+        scalar[0]: .5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Color_Main
+      value:
+        scalar[0]: .411764681
+        scalar[1]: .411764681
+        scalar[2]: .411764681
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Color_Background
+      value:
+        scalar[0]: .313908994
+        scalar[1]: .319081008
+        scalar[2]: .329412013
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Color_EdgeWear
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Color_Pores
+      value:
+        scalar[0]: .678431392
+        scalar[1]: .678431392
+        scalar[2]: .678431392
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Roughness_Background
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Roughness_Main
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: AO_Strength
+      value:
+        scalar[0]: .395000011
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: EdgeWearType
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Edge_Wear
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: WearMaskModifier
+      value:
+        scalar[0]: .851000011
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Invert_Roughness
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: DetailNormalStrength
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Detail_AO_Strength
+      value:
+        scalar[0]: .326000005
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Detail_BaseColor
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Color_DetailBase
+      value:
+        scalar[0]: .354238719
+        scalar[1]: .359396219
+        scalar[2]: .411764681
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 2.5, y: 2.5}
+      generateMipmaps: 1
+      generateAllOutputs: 1
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 2
+      texEnvs:
+        data:
+          first:
+            name: _MainTex
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 2.5, y: 2.5}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _BumpMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 2.5, y: 2.5}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailNormalMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 100, y: 100}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailAlbedoMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 100, y: 100}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _Occlusion
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 2.5, y: 2.5}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _Metallic
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 2.5, y: 2.5}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailMetallic
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 15, y: 15}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailOcclusion
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 100, y: 100}
+            offset: {x: 0, y: 0}
+      floats:
+        data:
+          first:
+            name: _Cutoff
+          second: .5
+        data:
+          first:
+            name: _SrcBlend
+          second: 1
+        data:
+          first:
+            name: _DstBlend
+          second: 0
+        data:
+          first:
+            name: _Parallax
+          second: .0194000006
+        data:
+          first:
+            name: _ZWrite
+          second: 1
+        data:
+          first:
+            name: _Glossiness
+          second: .5
+        data:
+          first:
+            name: _BumpScale
+          second: 1
+        data:
+          first:
+            name: _OcclusionStrength
+          second: 1
+        data:
+          first:
+            name: _DetailNormalMapScale
+          second: 1
+        data:
+          first:
+            name: _UVSec
+          second: 0
+        data:
+          first:
+            name: _EmissionScaleUI
+          second: 0
+        data:
+          first:
+            name: _Mode
+          second: 0
+        data:
+          first:
+            name: _Metallic
+          second: 0
+        data:
+          first:
+            name: _Tess
+          second: 32
+        data:
+          first:
+            name: _Displacement
+          second: .125
+        data:
+          first:
+            name: _HeightmapTiling
+          second: 2.5
+        data:
+          first:
+            name: _RainbowSparkles
+          second: 1
+        data:
+          first:
+            name: _RoughnessMod
+          second: 0
+      colors:
+        data:
+          first:
+            name: _EmissionColor
+          second: {r: 0, g: 0, b: 0, a: 0}
+        data:
+          first:
+            name: _Color
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _EmissionColorUI
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _SparkleColor
+          second: {r: .735294104, g: .735294104, b: .735294104, a: 1}
+    textureParameters:
+    - name: AcousticFoam_4a_basecolor
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4a_normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4a_metallic
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4a_height
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4a_AO
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4a_Detail_BaseColor
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4a_roughness
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4a_Detail_Normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4a_Detail_Metallic
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4a_Detal_AO
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp:
+        name: _MainTex
+      material: {instanceID: 0}
+      baseUID: 3243357744
+    - shaderProp:
+        name: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 3243357746
+    - shaderProp:
+        name: _DetailNormalMap
+      material: {instanceID: 0}
+      baseUID: 3254007894
+    - shaderProp:
+        name: _DetailAlbedoMap
+      material: {instanceID: 0}
+      baseUID: 3243701291
+    - shaderProp:
+        name: _Occlusion
+      material: {instanceID: 0}
+      baseUID: 3243329407
+    - shaderProp:
+        name: _Metallic
+      material: {instanceID: 0}
+      baseUID: 3243357750
+    - shaderProp:
+        name: _DetailMetallic
+      material: {instanceID: 0}
+      baseUID: 3254008369
+    - shaderProp:
+        name: _DetailOcclusion
+      material: {instanceID: 0}
+      baseUID: 3253697284
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      loadingBehavior: 1
+  - serializedVersion: 15
+    name: AcousticFoam_4b
+    prototypeName: AcousticFoam
+    shader: {fileID: 4800000, guid: f4efabcda876751448b82cb3e44cd08c, type: 3}
+    shaderKeywords: _DETAIL_MULX2 _NORMALMAP
+    renderQueue: -1
+    inputs:
+    - name: $outputsize
+      value:
+        scalar[0]: 8
+        scalar[1]: 8
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $randomseed
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Foam_Type
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: HeightMapModifier
+      value:
+        scalar[0]: .5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Color_Main
+      value:
+        scalar[0]: .411764681
+        scalar[1]: .411764681
+        scalar[2]: .411764681
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Color_Background
+      value:
+        scalar[0]: .313908994
+        scalar[1]: .319081008
+        scalar[2]: .329412013
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Color_EdgeWear
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Color_Pores
+      value:
+        scalar[0]: .678431392
+        scalar[1]: .678431392
+        scalar[2]: .678431392
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Roughness_Background
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Roughness_Main
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: AO_Strength
+      value:
+        scalar[0]: .395000011
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: EdgeWearType
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Edge_Wear
+      value:
+        scalar[0]: .89200002
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: WearMaskModifier
+      value:
+        scalar[0]: .851000011
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Invert_Roughness
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: DetailNormalStrength
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Detail_AO_Strength
+      value:
+        scalar[0]: .326000005
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Detail_BaseColor
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Color_DetailBase
+      value:
+        scalar[0]: .354238719
+        scalar[1]: .359396219
+        scalar[2]: .411764681
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 2.5, y: 2.5}
+      generateMipmaps: 1
+      generateAllOutputs: 1
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 2
+      texEnvs:
+        data:
+          first:
+            name: _MainTex
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 2.5, y: 2.5}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _BumpMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 2.5, y: 2.5}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailNormalMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 100, y: 100}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailAlbedoMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 100, y: 100}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _Occlusion
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 2.5, y: 2.5}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _Metallic
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 2.5, y: 2.5}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailMetallic
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 15, y: 15}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailOcclusion
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 100, y: 100}
+            offset: {x: 0, y: 0}
+      floats:
+        data:
+          first:
+            name: _Cutoff
+          second: .5
+        data:
+          first:
+            name: _SrcBlend
+          second: 1
+        data:
+          first:
+            name: _DstBlend
+          second: 0
+        data:
+          first:
+            name: _Parallax
+          second: .0194000006
+        data:
+          first:
+            name: _ZWrite
+          second: 1
+        data:
+          first:
+            name: _Glossiness
+          second: .5
+        data:
+          first:
+            name: _BumpScale
+          second: 1
+        data:
+          first:
+            name: _OcclusionStrength
+          second: 1
+        data:
+          first:
+            name: _DetailNormalMapScale
+          second: 1
+        data:
+          first:
+            name: _UVSec
+          second: 0
+        data:
+          first:
+            name: _EmissionScaleUI
+          second: 0
+        data:
+          first:
+            name: _Mode
+          second: 0
+        data:
+          first:
+            name: _Metallic
+          second: 0
+        data:
+          first:
+            name: _Tess
+          second: 32
+        data:
+          first:
+            name: _Displacement
+          second: .125
+        data:
+          first:
+            name: _HeightmapTiling
+          second: 2.5
+        data:
+          first:
+            name: _RainbowSparkles
+          second: 1
+        data:
+          first:
+            name: _RoughnessMod
+          second: 0
+      colors:
+        data:
+          first:
+            name: _EmissionColor
+          second: {r: 0, g: 0, b: 0, a: 0}
+        data:
+          first:
+            name: _Color
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _EmissionColorUI
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _SparkleColor
+          second: {r: .735294104, g: .735294104, b: .735294104, a: 1}
+    textureParameters:
+    - name: AcousticFoam_4b_basecolor
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4b_normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4b_metallic
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4b_height
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4b_AO
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4b_Detail_BaseColor
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4b_roughness
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4b_Detail_Normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4b_Detail_Metallic
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: AcousticFoam_4b_Detal_AO
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp:
+        name: _MainTex
+      material: {instanceID: 0}
+      baseUID: 3243357744
+    - shaderProp:
+        name: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 3243357746
+    - shaderProp:
+        name: _DetailNormalMap
+      material: {instanceID: 0}
+      baseUID: 3254007894
+    - shaderProp:
+        name: _DetailAlbedoMap
+      material: {instanceID: 0}
+      baseUID: 3243701291
+    - shaderProp:
+        name: _Occlusion
+      material: {instanceID: 0}
+      baseUID: 3243329407
+    - shaderProp:
+        name: _Metallic
+      material: {instanceID: 0}
+      baseUID: 3243357750
+    - shaderProp:
+        name: _DetailMetallic
+      material: {instanceID: 0}
+      baseUID: 3254008369
+    - shaderProp:
+        name: _DetailOcclusion
+      material: {instanceID: 0}
+      baseUID: 3253697284
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

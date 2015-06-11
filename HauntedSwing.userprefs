@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RotateCamera.cs">
+    <Files>
+      <File FileName="Assets\Scripts\MoveCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SwingGameLogic.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RotateAroundObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DataReader.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GyroAccelFilter.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RealDataReader.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RotateCamera.cs" Line="70" Column="73" />
+      <File FileName="Assets\Scripts\MessageSender.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MessageReceiver.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
